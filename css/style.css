@@ -435,7 +435,7 @@ footer .footer-menu-links ul li a:hover {
 .card-img {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInMove 2s ease-out infinite; 
+  animation: fadeInMove 2s ease-out infinite; /* 'infinite' faz a animação repetir */
 }
 
 @keyframes fadeInMove {
@@ -449,6 +449,21 @@ footer .footer-menu-links ul li a:hover {
   }
   100% {
     opacity: 0;
-    transform: translateY(-20px); 
+    transform: translateY(-20px); /* Move o elemento para cima */
   }
+}
+
+
+.mapa-localizacao {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mapa-localizacao iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
