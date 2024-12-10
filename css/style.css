@@ -435,7 +435,7 @@ footer .footer-menu-links ul li a:hover {
 .card-img {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInMove 2s ease-out infinite; /* 'infinite' faz a animação repetir */
+  animation: fadeInMove 2s ease-out infinite; 
 }
 
 @keyframes fadeInMove {
@@ -449,6 +449,6 @@ footer .footer-menu-links ul li a:hover {
   }
   100% {
     opacity: 0;
-    transform: translateY(-20px); /* Move o elemento para cima */
+    transform: translateY(-20px); 
   }
 }
